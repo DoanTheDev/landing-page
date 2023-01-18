@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+header{
+    position: relative;
+    background-color:#1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:#F9FAF8;
+}
+.logo {
+    position:absolute;
+    top: 10px;
+    font-size: 24px;
+    color: #F9FAF8;
+    float: left;
+    
+    
+}   
+.headers  {
+    display:flex;
+    gap: 1rem;
+    font-size: 18px;
+    color: #e5e7eb;
+    float: right;
+    list-style: none;
+    margin:0;
+    padding:0;
+    top: 10px;
+
+
+}
+.headers li {
+    font-size: 18px;
+    color: #e5e7eb;
+    float: left;
+    position: relative;
+    bottom: 80px;
+
+    
+
+}
