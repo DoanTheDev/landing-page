@@ -1,8 +1,4 @@
-body{
-    margin: 0;
-}
 header{
-    position: relative;
     background-color:#1F2937;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -17,40 +13,46 @@ header{
     
     
 }   
-.headers  {
+.plinks  {
     display:flex;
-    gap: 1rem;
-    font-size: 18px;
-    color: #e5e7eb;
     float: right;
     list-style: none;
     margin:0;
     padding:0;
     top: 10px;
-
-
+    margin-right: 20px;
 }
-.headers li {
+.clinks{
+    display:flex;
+    gap: 1rem;
     font-size: 18px;
     color: #e5e7eb;
     float: left;
     position: relative;
     bottom: 80px;
-
-    
-
 }
 
-.header-text {
-    text-align: center;
-    width: 200 px;
-    
-    
+.plinks {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    }
+.clinks {
+    font-size: 18px;
+    color: #E5E7EB;
+    }
+.container {
+    display:flex;
+    flex-direction: column;
 }
-.header-text2 {
-    text-align: center;
-    width: 200px;
-    margin-left: 350px;
-    
-
+.a{
+    font-size: 18px; color: #E5E7EB;
+    font-weight: 800;
+    margin-left: 200px;
 }
+.b{
+    width:350px;
+    margin-left: 200px
+}
+body{
+    margin: 0;}
