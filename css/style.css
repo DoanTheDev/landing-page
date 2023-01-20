@@ -10,6 +10,7 @@ header{
     font-size: 24px;
     color: #F9FAF8;
     float: left;
+    margin-left: 200px;
     
     
 }   
@@ -20,7 +21,7 @@ header{
     margin:0;
     padding:0;
     top: 10px;
-    margin-right: 20px;
+    margin-right: 175px;
 }
 .clinks{
     display:flex;
@@ -30,6 +31,7 @@ header{
     float: left;
     position: relative;
     bottom: 80px;
+    
 }
 
 .plinks {
@@ -44,15 +46,36 @@ header{
 .container {
     display:flex;
     flex-direction: column;
+    
+    width
 }
 .a{
-    font-size: 18px; color: #E5E7EB;
+    font-size: 48px; color: #E5E7EB;
     font-weight: 800;
     margin-left: 200px;
+    width: 300px;
+    
 }
 .b{
     width:350px;
     margin-left: 200px
 }
+.c {
+top: -25px;
+margin: 0;
+margin-left: 600px ;
+ padding:1px 0;
+ text-align: center;
+ height: 200px;
+ width: 430px;
+ background-color: grey;
+
+ position: absolute;
+ margin-top: 90px;
+ 
+
+
+}
 body{
+    position: relative;
     margin: 0;}
